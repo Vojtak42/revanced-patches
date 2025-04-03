@@ -191,6 +191,11 @@ public final class app/revanced/patches/googlephotos/misc/features/SpoofBuildInf
 public final class app/revanced/patches/googlephotos/misc/features/SpoofFeaturesPatchKt {
 	public static final fun getSpoofFeaturesPatch ()Lapp/revanced/patcher/patch/BytecodePatch;
 }
+public final class app/revanced/patches/duolingo/unlocksuper/UnlockDuolingoSuperPatch : app/revanced/patcher/patch/BytecodePatch {
+	public static final field INSTANCE Lapp/revanced/patches/duolingo/unlocksuper/UnlockDuolingoSuperPatch;
+	public fun execute (Lapp/revanced/patcher/data/BytecodeContext;)V
+	public synthetic fun execute (Lapp/revanced/patcher/data/Context;)V
+}
 
 public final class app/revanced/patches/googlephotos/misc/gms/GmsCoreSupportPatchKt {
 	public static final fun getGmsCoreSupportPatch ()Lapp/revanced/patcher/patch/BytecodePatch;
